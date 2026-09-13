@@ -1,22 +1,39 @@
-# 🛡️ AI Network Anomaly Detection
+# Telecom-AnomalyDetection-4G5G
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red.svg)
-![IsolationForest](https://img.shields.io/badge/scikit--learn-AnomalyDetection-orange.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-Active-success.svg)
 
-AI-based Network Anomaly Detection System tailored for modern 4G/5G infrastructure security.
+## Description
+This project focuses on anomaly detection. It aims to provide a robust, efficient, and scalable solution using modern technologies and best practices in the field.
 
-## 🔍 Features
-- **Real-Time Detection**: Employs Autoencoders and Isolation Forest to identify anomalous traffic.
-- **Threat Identification**: Detects DDoS attacks, unusual traffic patterns, and potential equipment failures.
-- **Time-Series Analysis**: Monitors network metrics including latency spikes, throughput drops, and jitter.
-- **Alerting & Visualization**: Automated severity classification with a sleek Plotly/Streamlit dashboard.
+## Key Features
+- High performance architecture
+- Extensible and modular design
+- Comprehensive data processing capabilities
+- Easy-to-use interface and quick setup
 
-## 🛡️ Securing Modern Telecom
-As telecom networks scale, traditional rule-based firewalls fall short. This AI solution learns the "normal" behavior of network traffic and instantly flags deviations, ensuring high availability and secure communications for 5G infrastructure.
+## Tech Stack
+- Autoencoders\n- Isolation Forest\n- Plotly\n- Streamlit
 
-## 🚀 Usage
+## Quick Start
 ```bash
+git clone https://github.com/iMuneebK/Telecom-AnomalyDetection-4G5G.git
+cd Telecom-AnomalyDetection-4G5G
 pip install -r requirements.txt
-streamlit run app.py
-```\n
+python main.py
+```
+
+## Project Structure
+```
+Telecom-AnomalyDetection-4G5G/
+├── data/
+├── models/
+├── src/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## License
+This project is licensed under the MIT License.
